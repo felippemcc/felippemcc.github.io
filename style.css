@@ -17,15 +17,12 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color:#00204A;
     background-color: #999999;
-
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
     background-color: #424a50;
     border-radius: 0px 60px 0px 0px;
 }
@@ -42,24 +39,6 @@
 .profile .profile-image {
     width: 100%;
     border-radius: 100%;
-   
-}
-
-.name {
-    color: #ffffff;
-    font-size: 30px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center
-}
-
-.profession {
-    color: #FDB44B;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 1.5rem;
-
 }
 
 .name {
@@ -74,28 +53,10 @@
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-
-    color: #FDB44B;
-    font-size: 20px;
-    padding-top: 1rem;
-    padding: 0.5rem 2rem;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FDB44B;
-}
-
-.contact-info ul {
-    padding-top: 0.3rem;
     color: #eeeeee;
     font-size: 20px;
 }
@@ -106,24 +67,18 @@
 
 .contact-info ul li,
 .references ul li {
-    padding: .3rem 0;
     padding: .4rem 0;
     color: #eeeeee;
 }
 
 .contact-info ul li i,
 .references ul li i {
-    padding: 0rem 2rem;
     padding-right: 1rem;
     font-size: 18px;
     color: #eeeeee;
 }
 
 .skills ul {
-    padding-top: .3rem;
-}
-.skills ul li p {
-    padding: 0rem 2rem;
     padding-top: 1.5rem;
 }
 .skills ul li p {
@@ -135,32 +90,8 @@
     padding: 2rem 2rem;
 }
 
-
-.right-title-1 {
-    color: #70C6C7;
-    font-size: 40px;
-    padding: 0rem 0rem;
-    font-family: Roboto;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 2px;
-    text-align: left;
-}
-
-.right-title {
-    color: #70C6C7;
-    font-size: 40px;
-    padding: 0rem 2rem;
-    font-family: Roboto;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 2px;
-    text-align: left;
-
-
 .right-title {
     color: #eeeeee;
-
 }
 
 .gap {
@@ -177,10 +108,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-
-    padding: 1rem 2rem;
-
-
     color: #F1F8FD;
 }
 
@@ -189,46 +116,18 @@
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
-    color: #FDB44B;
-    font-family: Roboto;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 1px;
-    text-align: left;
-    text-transform: uppercase;
-
-}
-
-.exp-time-period,
-.education-time-period,
-.awards-time-period {
-    font-size: 18px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-
 }
 
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
     font-size: 18px;
-
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
     font-size: 25px;
-    font-family: Roboto;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 1px;
-    text-align: left;
-    color: #FDB44B;
-
 }
 
 .exp-desc,
@@ -236,19 +135,4 @@
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
-    text-align: justify;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    border-left: 3px solid #a5a3a3;
-/* or 150% */
-
-letter-spacing: 1px;
-
-color: #F1F8FD;
 }
-
-}
-
